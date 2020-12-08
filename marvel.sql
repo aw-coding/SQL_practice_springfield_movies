@@ -98,6 +98,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 
 -- Extension! Deleting multiple entries with one command.
 
-DELETE FROM movies WHERE year = 2011;
+DELETE FROM movies WHERE year IN (2011, 2012);
+
 
 SELECT * FROM movies;
